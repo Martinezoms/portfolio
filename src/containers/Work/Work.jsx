@@ -45,7 +45,7 @@ const Work = () => {
       </h2>
 
       <div className="app__work-filter">
-        {["All", "Vanilla", "React", "Next"].map((item, i) => (
+        {["All", "Vanilla", "React"].map((item, i) => (
           <div
             key={i}
             className={`app__work-filter-item app__flex p-text ${activeFilter === item ? "item-active" : ""}`}

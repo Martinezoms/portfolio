@@ -41,29 +41,30 @@ const Footer = () => {
       <h2 className="head-text">Ofcourse I Didn't Forget My Contacts & Resume 👀</h2>
 
       <div className="app__footer-cards">
-        <div className="app__footer-card">
-          <img src={images.email} alt="email" />
-          <a href="mailto:martinezoms15@gmail.com" target="_blank" rel="noreferrer" className="p-text">
-            martinezoms15@gmail.com
-          </a>
-        </div>
-        <div className="app__footer-card">
-          <img src={images.mobile} alt="mobile" />
-          <a href="tel: +234 (905) 5366-8047" target="_blank" rel="noreferrer" className="p-text">
-            +234 (905) 5366-8047
-          </a>
-        </div>
-        <div className="app__footer-card">
-          <img src={images.resume} alt="resume" />
-          <a
-            href="https://docs.google.com/document/d/14eo1bOESu3mwdCwech6vJXdilfJWjHc_3JnxnXaclFw/edit#"
-            target="_blank"
-            rel="noreferrer"
-            className="p-text"
-          >
-            My Resume
-          </a>
-        </div>
+        <a href="mailto:martinezoms15@gmail.com" target="_blank" rel="noreferrer">
+          <div className="app__footer-card">
+            <img src={images.email} alt="email" />
+
+            <p className="p-text">martinezoms15@gmail.com</p>
+          </div>
+        </a>
+        <a href="tel: +234 (905) 5366-8047" target="_blank" rel="noreferrer">
+          <div className="app__footer-card">
+            <img src={images.mobile} alt="mobile" />
+
+            <p className="p-text">+234 (905) 5366-8047</p>
+          </div>
+        </a>
+        <a
+          href="https://docs.google.com/document/d/14eo1bOESu3mwdCwech6vJXdilfJWjHc_3JnxnXaclFw/edit?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="app__footer-card">
+            <img src={images.resume} alt="resume" />
+            <p className="p-text">My Resume</p>
+          </div>
+        </a>
       </div>
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">

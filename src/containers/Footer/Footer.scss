@@ -19,6 +19,11 @@
   flex-wrap: wrap;
   margin: 4em 2rem 2rem;
 
+  a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
   .app__footer-card {
     min-width: 290px;
     display: flex;
@@ -43,10 +48,7 @@
     p {
       font-weight: 500;
     }
-    a {
-      text-decoration: none;
-      font-weight: 500;
-    }
+
     &:hover {
       box-shadow: 0 0 25px #fef4f5;
     }
