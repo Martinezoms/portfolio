@@ -39,6 +39,12 @@
 
     transition: all 0.3s ease-in-out;
 
+    div {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
     img {
       width: 40px;
       height: 40px;
