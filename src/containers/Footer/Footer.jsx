@@ -45,7 +45,7 @@ const Footer = () => {
           <a href="mailto:martinezoms15@gmail.com" target="_blank" rel="noreferrer">
             <div>
               <img src={images.email} alt="email" />
-              <p className="p-text">martinezoms15@gmail.com</p>
+              <p className="p-text">martinsenyinnaya0@gmail.com</p>
             </div>
           </a>
         </div>
@@ -53,7 +53,7 @@ const Footer = () => {
           <a href="tel: +234 (905) 5366-8047" target="_blank" rel="noreferrer">
             <div>
               <img src={images.mobile} alt="mobile" />
-              <p className="p-text">+234 (905) 5366-8047</p>
+              <p className="p-text">+2349053668047</p>
             </div>
           </a>
         </div>
